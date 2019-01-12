@@ -1,0 +1,53 @@
+### Begin -----------------
+base-devel
+sudo
+pulseaudio
+pulsemixer
+linux-headers
+gtk2
+wget
+curl
+ntp
+libnotify
+### xorg -----------------
+xorg-xrandr
+xorg-server
+xorg-xinit
+### i3wm -----------------
+i3-gaps
+i3lock
+i3blocks
+i3status
+calcurse
+rofi
+w3m
+feh
+dunst
+ranger
+compton
+lightdm-gtk-greeter
+arc-gtk-theme
+# fonts
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+adobe-source-code-pro-fonts
+awesome-terminal-fonts
+gsfonts
+### terminal ------------
+fzf
+xterm
+vim
+zsh
+#tmux
+thefuck
+### other soft --------------
+openssh
+rsync
+git
+python
+unzip
+python-pip
+htop
+firefox
+# kostil

@@ -1,0 +1,3 @@
+Interface={{eth_dev}}
+Connection=ethernet
+IP=dhcp

@@ -1,0 +1,6 @@
+[submodule "utils/dotfiles"]
+	path = utils/dotfiles
+	url = https://github.com/0x0BSoD/dotfiles.git
+[submodule "src/st"]
+	path = src/st
+	url = https://github.com/LukeSmithxyz/st.git
