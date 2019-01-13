@@ -2,10 +2,12 @@
 
 You may use fdisk for or sfdisk for partitioning.
 
-Link to tar.gz: https://bit.ly/2NLj06j
+Link to tar.gz: https://github.com/0x0BSoD/archer/releases/download/1.0/archer.tar.gz
 
 ```bash
-wget --no-check-certificate https://bit.ly/2NLj06j -O s && tar -xzvf s
+wget https://github.com/0x0BSoD/archer/releases/download/1.0/archer.tar.gz && tar -xzvf archer.tar.gz
+cd build
+./run.sh -f params
 ```
 
 Layout example:
