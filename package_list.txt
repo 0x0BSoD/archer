@@ -6,6 +6,7 @@ pulsemixer
 linux-headers
 gtk2
 wget
+gcc
 curl
 ntp
 libnotify
@@ -44,6 +45,8 @@ thefuck
 ### other soft --------------
 openssh
 rsync
+neofetch
+scrot
 git
 python
 unzip

@@ -8,6 +8,15 @@ part_target_disk_silent () {
     SECTOR="$(cat /sys/block/${device[2]}/queue/hw_sector_size)"
     IFS="$OIFS"
 
+    # Better ensure ist the right disk
+    print_msg ${green} "FDISK"
+    print_msg ${green} "====================================="
+
+    fdisk ${DISK}
+    print_msg ${green} "Make sfdisk dump"
+    print_msg ${green} "====================================="
+    sfdisk -d ${DISK} > conf/sda.sfdisk
+
     print_msg ${blue} "==> Making partitions"
     if [[ ${PARTITIONING} == fdisk ]]
     then

@@ -18,9 +18,11 @@ custom_run () {
         stop_spinner $?
 
         start_spinner "[!] Cloning vim zsh-autosuggestions"
-        runuser -l  ${USER_NAME} -c "git clone git://github.com/tobi-wan-kenobi/bumblebee-status ~/.bumblebee-status"
+        runuser -l  ${USER_NAME} -c "git clone git://github.com/tobi-wan-kenobi/bumblebee-status ~/.bumblebee-status &>/dev/null"
         stop_spinner $?
 
-
-
+        start_spinner "[!] Pip packages"
+        ln -s /usr/bin/gcc /usr/local/bin/gcc-4.2
+        runuser -l  ${USER_NAME} -c "pip install --user i3ipc psutil netifaces  &>/dev/null"
+        stop_spinner $?
 }
