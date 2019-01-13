@@ -4,3 +4,6 @@
 [submodule "src/st"]
 	path = src/st
 	url = https://github.com/LukeSmithxyz/st.git
+[submodule "utils/aur_helper"]
+	path = utils/aur_helper
+	url = https://github.com/0x0BSoD/aur_helper.git
