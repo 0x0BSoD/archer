@@ -17,7 +17,7 @@ custom_run () {
         runuser -l  ${USER_NAME} -c "git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions &>/dev/null"
         stop_spinner $?
 
-        start_spinner "[!] Cloning vim zsh-autosuggestions"
+        start_spinner "[!] Cloning bumblebee-status"
         runuser -l  ${USER_NAME} -c "git clone git://github.com/tobi-wan-kenobi/bumblebee-status ~/.bumblebee-status &>/dev/null"
         stop_spinner $?
 
